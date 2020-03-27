@@ -1,1 +1,1 @@
-# Advent-of-corona-day3
+My solution for day 3 of advent of corona! #stayhome
