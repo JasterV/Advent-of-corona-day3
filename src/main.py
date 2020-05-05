@@ -79,7 +79,7 @@ def MBFS(grid, N, row, column):
 
 
 def phase1():
-    file = open("map.txt", "r")
+    file = open("../maps/map.txt", "r")
     info = file.read().strip().split('\n')
     N = int(info[0])
     grid = list(map(lambda s: list(s), info[1:-1]))
@@ -89,7 +89,7 @@ def phase1():
 
 
 def phase2():
-    file = open("map2.txt", "r")
+    file = open("../maps/map2.txt", "r")
     info = file.read().strip().split('\n')
     N = int(info[0])
     grid = list(map(lambda s: list(s), info[1:-1]))
